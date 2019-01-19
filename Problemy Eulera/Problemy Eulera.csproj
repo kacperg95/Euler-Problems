@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD7587E5-71DE-448B-BE8E-576FB1117E01}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Problemy_Eulera</RootNamespace>
+    <AssemblyName>Problemy Eulera</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\IProblem.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="Problems\001. Multiples of 3 and 5\Problem1.cs" />
+    <Compile Include="Problems\002. Even Fibonacci Numbers\Problem2.cs" />
+    <Compile Include="Problems\003. Largest Prime Factor\Problem3.cs" />
+    <Compile Include="Problems\004. Largest Palindrome Product\Problem4.cs" />
+    <Compile Include="Problems\005. Smallest Multiple\Problem5.cs" />
+    <Compile Include="Problems\006. Sum Square Difference\Problem6.cs" />
+    <Compile Include="Problems\007. 10001st Prime\Problem7.cs" />
+    <Compile Include="Problems\008. Largest Product in a Series\Problem8.cs" />
+    <Compile Include="Problems\009. Special Pythagorean Triplet\Problem9.cs" />
+    <Compile Include="Problems\010. Sumation of Primes\Problem10.cs" />
+    <Compile Include="Problems\011. Largest Product in a Grid\Problem11.cs" />
+    <Compile Include="Problems\012. Highly Divisible Traingular Number\Problem12.cs" />
+    <Compile Include="Problems\013. Large Sum\Problem13.cs" />
+    <Compile Include="Problems\014. Longest Collatz Sequence\Problem14.cs" />
+    <Compile Include="Problems\015. Lattice Paths\Problem15.cs" />
+    <Compile Include="Problems\016. Power Digit Sum\Problem16.cs" />
+    <Compile Include="Problems\017. Number Letter Counts\Problem17.cs" />
+    <Compile Include="Problems\018. Maximum Path Sums I\Problem18.cs" />
+    <Compile Include="Problems\019. Counting Sundays\Problem19.cs" />
+    <Compile Include="Problems\020. Factorial Digit Sum\Problem20.cs" />
+    <Compile Include="Problems\021. Amicable Numbers\Problem21.cs" />
+    <Compile Include="Problems\022. Names Scores\Problem22.cs" />
+    <Compile Include="Problems\023. Non-Abundant Sums\Problem23.cs" />
+    <Compile Include="Problems\024. Lexicographic permutations\Problem24.cs" />
+    <Compile Include="Problems\025. 1000-Digit Fibonacci Number\Problem25.cs" />
+    <Compile Include="Problems\026. Reciprocal Cycles\Problem26.cs" />
+    <Compile Include="Problems\027. Quadratic Primes\Problem27.cs" />
+    <Compile Include="Problems\028. Number Spiral Diagonals\Problem28.cs" />
+    <Compile Include="Problems\029. Distinct Powers\Problem29.cs" />
+    <Compile Include="Problems\030. Digit Fifth Powers\Problem30.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

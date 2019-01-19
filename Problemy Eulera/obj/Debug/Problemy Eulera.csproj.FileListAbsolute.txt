@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\Problemy Eulera\Problemy Eulera\bin\Debug\Problemy Eulera.exe.config
+C:\Users\Admin\Desktop\Problemy Eulera\Problemy Eulera\bin\Debug\Problemy Eulera.exe
+C:\Users\Admin\Desktop\Problemy Eulera\Problemy Eulera\bin\Debug\Problemy Eulera.pdb
+C:\Users\Admin\Desktop\Problemy Eulera\Problemy Eulera\obj\Debug\Problemy Eulera.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Problemy Eulera\Problemy Eulera\obj\Debug\Problemy Eulera.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Problemy Eulera\Problemy Eulera\obj\Debug\Problemy Eulera.exe
+C:\Users\Admin\Desktop\Problemy Eulera\Problemy Eulera\obj\Debug\Problemy Eulera.pdb
