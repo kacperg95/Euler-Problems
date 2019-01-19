@@ -75,6 +75,7 @@
     <Compile Include="Problems\028. Number Spiral Diagonals\Problem28.cs" />
     <Compile Include="Problems\029. Distinct Powers\Problem29.cs" />
     <Compile Include="Problems\030. Digit Fifth Powers\Problem30.cs" />
+    <Compile Include="Problems\031. Coin Sums\Problem31.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

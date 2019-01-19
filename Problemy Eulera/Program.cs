@@ -10,7 +10,7 @@ namespace Problemy_Eulera
     { 
         static void Main(string[] args)
         {
-            IProblem problem = new Problem30();
+            IProblem problem = new Problem31();
             problem.PrintSolution();
             Console.ReadKey();
         }
